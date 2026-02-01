@@ -26,23 +26,14 @@ Build a RESTful API that mimics a payment processing backend. It must check for 
 ## 3. Getting Started
 
 1.  **Fork this Repository:** Do not clone it directly. Create a fork to your own GitHub account.
-2.  **Environment:** You may use **Node.js, Python, Java or Go**. You may use any database or in-memory store (Redis, SQLite, or a simple native Map/Dictionary variable).
+2.  **Environment:** You may use **Node.js, Python, Java or Go, etc.**. You may use any database or in-memory store (Redis, SQLite, or a simple native Map/Dictionary variable).
 3.  **Submission:** Your final submission will be a link to your forked repository containing the source code and documentation.
 
 ---
 
-## 4. The Architecture Diagram (Design First)
+## 4. The Architecture Diagram 
 **Task:** Before you write any code, you must design the logic flow.
 **Deliverable:** A **Sequence Diagram** or **Flowchart** included in your README.
-
-**What the diagram must show:**
-* The step-by-step flow of a request from the moment it hits the server to the moment a response is returned.
-* Decision points:
-    * Does the key exist?
-    * Is the key currently "in-flight" (processing)?
-    * Is the payload identical?
-
-*Tip: You can use tools like Mermaid.js, Lucidchart, Draw.io, or even a clear photo of a whiteboard sketch.*
 
 ---
 
@@ -103,23 +94,22 @@ We believe great engineers are also product thinkers.
 **Task:** Identify **one** additional feature or safety mechanism that would make this system better for a real-world Fintech company.
 1.  **Implement it.**
 2.  **Document it:** Explain *why* you added it in your README.
-    * *Examples (for inspiration only):* Key expiration (TTL), Admin endpoint to clear keys, specific logging format for auditing.
 
 ---
 
 ## 8. Documentation Requirements
-Your repository **must** include a `README.md` (this file, updated) covering:
+Your final `README.md` must replace these instructions. It must cover:
 
-1.  **Architecture Diagram:** Your visual design from Section 4.
-2.  **Setup Instructions:** How to install dependencies and run your server locally.
-3.  **API Documentation:** A clear list of endpoints, required headers, and example request/response bodies. (Screenshots of Postman/Insomnia are acceptable, or a link to a published Postman Collection).
-4.  **Design Decisions:** Briefly explain *how* you stored the keys (Database vs. Memory) and why you chose that approach.
+1.  **Architecture Diagram**
+2.  **Setup Instructions**
+3.  **API Documentation** 
+4.  **Design Decisions** 
 5.  **The Developer's Choice:** Description of the extra feature you added.
 
 ---
 
 ## 9. Demo Preparation
 Be prepared for a 30-minute interview where you will:
-1.  **Walk through your Diagram:** Explain your logic before showing the code.
-2.  **Live Demo:** Use an API Client (Postman/cURL) to demonstrate **User Story 1 and 2** live.
-3.  **Q&A:** Explain your code structure and how you handled the "Developer's Choice."
+1.  **Walk through your Diagram** 
+2.  **Live Demo**
+3.  **Q&A**
